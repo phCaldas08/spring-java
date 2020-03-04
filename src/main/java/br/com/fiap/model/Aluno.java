@@ -4,11 +4,14 @@ public class Aluno {
 	private Integer rm;
 	private String nome;
 	private Double nota;
+	private boolean passou;
 	
 	public Aluno(Integer rm, String nome, Double nota) {
 		this.nome = nome;
 		this.nota = nota;
 		this.rm = rm;
+		
+		passou = nota >= 7;
 	}
 	
 	public Integer getRm() {
@@ -28,6 +31,10 @@ public class Aluno {
 	}
 	public void setNota(Double nota) {
 		this.nota = nota;
+	}
+	
+	public boolean getPassou() {
+		return this.passou;
 	}
 	
 	

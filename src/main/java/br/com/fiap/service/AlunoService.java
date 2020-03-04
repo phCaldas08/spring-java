@@ -13,4 +13,12 @@ public class AlunoService {
 		return alunoDAO.listaAlunos();
 	}
 	
+	public void novoAluno(Aluno aluno) {
+		alunoDAO.addAluno(aluno);
+	}
+	
+	public void removerAluno(Integer rm) {
+		alunoDAO.deleteAluno(rm);
+	}
+	
 }
