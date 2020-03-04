@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<name>Minha Primeira Aplicação em Spring</name>
 	<properties>
-		<spring.version>5.1.5.RELEASE</spring.version>
+		<spring.version>5.2.4.RELEASE</spring.version>
 	</properties>
 	<dependencies>
 
